@@ -55,8 +55,7 @@ public class Autho {
 		
 		
 		.then()
-		.statusCode(200)
-		.log().all();
+		.statusCode(200);
 	}
 
 }
